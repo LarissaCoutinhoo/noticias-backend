@@ -73,8 +73,8 @@ app.post("/noticias", (req, res) => {
 // Health check
 app.get("/", (req, res) => {
   res.json({
-    status: "Backend de Notícias rodando com CI/CD",
-    versao: "1.0.1",
+    status: "Backend de Notícias rodando com CI/CD da Larissa",
+    versao: "1.1.0",
     cors_ativo: true,
     frontend_integrado: true
   });
